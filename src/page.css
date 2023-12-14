@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#faster{
+    z-index: 2;
+}
+#faster::before{
+    content: '';
+    display: inline-block;
+    background: #c372f8ac;
+    width: 15rem;
+    height: 1rem;
+    top: 6rem;
+    left: 0;
+    z-index: 1;
+    border-radius: 140px;
+    position: absolute;
+    border:none;
+}
